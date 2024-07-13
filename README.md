@@ -51,13 +51,3 @@
 3. Back-End 설정
 
     - Spring Framework 설정에 따라 필요한 의존성 및 환경 설정
-
-4. 애플리케이션 실행
-
-    ```bash
-    # Front-End 서버 실행 (예: live-server 사용)
-    live-server
-
-    # Back-End 서버 실행
-    ./gradlew bootRun
-    ```
