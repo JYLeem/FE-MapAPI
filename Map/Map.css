@@ -1,0 +1,59 @@
+.infoWindow {
+    padding: 10px;
+    min-width: 200px;
+    line-height: 150%;
+}
+.infoWindow h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.infoWindow p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+.infoWindow img {
+    width: 100%;
+    height: auto;
+    max-height: 270px; /* 이미지 최대 높이 설정 */
+    margin-bottom: 5px;
+}
+.clusterMarker {
+    background-color: rgba(255, 153, 0, 0.6);
+    border: 1px solid rgba(255, 153, 0, 0.6);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#map {
+    margin-top: 30%;
+    margin-left: 35%;
+    width: 30%;
+    height: 800px;
+}
+#controls {
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+#category {
+    position: absolute;
+    margin-top: 29%;
+    margin-right: 59%;
+    right: 10px;
+    padding: 5px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}

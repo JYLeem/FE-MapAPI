@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>체리미소</title>
+    <link rel="stylesheet" href="Map.css" media="screen">
+</head>
+<body>
+    <div id="controls">
+        <select id="category" onchange="filterMarkers()">
+            <option value="all">모든 카테고리</option>
+            <option value="피트니스 센터">소매점</option>
+            <option value="중식당">음식점</option>
+            <option value="칼국수 전문점">서비스</option>
+            <option value="칼국수 전문점">프랜차이즈</option>
+            <!-- 추가 카테고리 옵션... -->
+        </select>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="config.js"></script>
+    <script src="Map.js"></script>
+
+</body>
+</html>
